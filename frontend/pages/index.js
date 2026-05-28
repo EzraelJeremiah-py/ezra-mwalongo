@@ -103,7 +103,7 @@ export default function Home() {
                       padding: "10px 20px",
                       fontWeight: "500",
                       boxShadow: "0 4px 10px rgba(0,0,0,0.2)",
-                      width: "100%"
+                      width: "200%"
                     }}
                   >
                     {s}
