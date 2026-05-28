@@ -88,7 +88,7 @@ export default function Home() {
               maxWidth: "900px",
               boxShadow: "0 10px 25px rgba(0,0,0,0.5)",
               width: "100%",
-              minHeight: "300px"   // 👈 ensures card is taller
+              minHeight: "900px"   // 👈 ensures card is taller
             }}
           >
             <div className="row justify-content-center">
