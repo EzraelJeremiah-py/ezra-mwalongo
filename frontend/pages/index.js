@@ -149,7 +149,7 @@ export default function Home() {
         style={{ position: "fixed", bottom: 0, width: "100%" }}
       >
         <small>
-          &copy; {new Date().getFullYear()} {portfolio.name} | Data Science Portfolio
+          &copy; {new Date().getFullYear()} {portfolio.name} | Data Scientist
         </small>
       </footer>
     </div>
