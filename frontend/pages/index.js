@@ -41,9 +41,9 @@ export default function Home() {
             style={{
               backgroundColor: "#f8f9fa",
               borderRadius: "10px",
-              maxWidth: "900px",
               boxShadow: "0 10px 25px rgba(0,0,0,0.5)",
-              width: "100%"
+              width: "100%",
+              minHeight: "250px"
             }}
           >
             <ul className="list-group">
