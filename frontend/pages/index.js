@@ -101,7 +101,7 @@ export default function Home() {
     padding: "15px 25px",
     fontWeight: "500",
     boxShadow: "0 4px 10px rgba(0,0,0,0.2)",
-    minHeight: "70px"
+    minHeight: "40px"
   }}
 >
 {s}
