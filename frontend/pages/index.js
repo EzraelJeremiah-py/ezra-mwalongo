@@ -42,7 +42,8 @@ export default function Home() {
               backgroundColor: "#f8f9fa",
               borderRadius: "10px",
               maxWidth: "900px",
-              boxShadow: "0 10px 25px rgba(0,0,0,0.5)"
+              boxShadow: "0 10px 25px rgba(0,0,0,0.5)",
+              width: "100%"
             }}
           >
             <ul className="list-group">
@@ -85,7 +86,8 @@ export default function Home() {
               backgroundColor: "#f8f9fa",
               borderRadius: "10px",
               maxWidth: "900px",
-              boxShadow: "0 10px 25px rgba(0,0,0,0.5)"
+              boxShadow: "0 10px 25px rgba(0,0,0,0.5)",
+              width: "100%"
             }}
           >
             <div className="row justify-content-center">
