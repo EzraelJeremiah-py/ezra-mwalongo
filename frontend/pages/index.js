@@ -76,43 +76,42 @@ export default function Home() {
             </ul>
           </div>
         </section>
+            {/* Technical Skills */}
+<section className="mb-5 text-center">
+  <h2 className="text-success mb-3">Technical Skills</h2>
+  <div
+  className="shadow-lg p-4"
+    style={{
+      backgroundColor: "#f8f9fa",
+      borderRadius: "10px",
+      boxShadow: "0 10px 25px rgba(0,0,0,0.5)",
+      width: "100%",       // 👈 stretches full screen
+      minHeight: "250px"   // optional: keeps it balanced vertically
+        }}
+>
+  <div className="row justify-content-center">
+{portfolio.skills.map((s, i) => (
+  <div key={i} className="col-md-3 mb-3">
+  <div
+  className="d-flex justify-content-center align-items-center"
+  style={{
+    backgroundColor: "#1e3d59",
+    color: "white",
+    borderRadius: "8px",
+    padding: "15px 25px",
+    fontWeight: "500",
+    boxShadow: "0 4px 10px rgba(0,0,0,0.2)",
+    minHeight: "70px"
+  }}
+>
+{s}
+</div>
+  </div>
+  ))}
+    </div>
+    </div>
+    </section>
 
-        {/* Technical Skills */}
-        <section className="mb-5 text-center">
-          <h2 className="text-success mb-3">Technical Skills</h2>
-          <div
-            className="shadow-lg p-4 mx-auto"
-            style={{
-              backgroundColor: "#f8f9fa",
-              borderRadius: "10px",
-              maxWidth: "900px",
-              boxShadow: "0 10px 25px rgba(0,0,0,0.5)",
-              width: "100%",
-              minHeight: "300px"   // 👈 ensures card is taller
-            }}
-          >
-            <div className="row justify-content-center">
-              {portfolio.skills.map((s, i) => (
-                <div key={i} className="col-md-4 mb-3">
-                  <div
-                    className="d-flex justify-content-center align-items-center"
-                    style={{
-                      backgroundColor: "#1e3d59",
-                      color: "white",
-                      borderRadius: "8px",
-                      padding: "10px 20px",
-                      fontWeight: "500",
-                      boxShadow: "0 4px 10px rgba(0,0,0,0.2)",
-                      width: "200%"
-                    }}
-                  >
-                    {s}
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
 
         {/* Experience */}
         <section className="mb-5 text-center">
